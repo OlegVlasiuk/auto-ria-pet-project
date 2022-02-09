@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  background: url('../../images/bg_rs8.jpg');
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+
+  .wrapper {
+    padding-top: 170px;
+
+    & > h1 {
+      margin: 0 auto;
+      font-size: 50px;
+      padding: 8px;
+      border-radius: 8px;
+      width: fit-content;
+      text-transform: uppercase;
+      color: #fff;
+      background: rgba(73, 73, 73, 0.7);
+    }
+    .btn {
+      width: fit-content;
+      position: absolute;
+      bottom: 2%;
+      left: 45%;
+      text-transform: uppercase;
+    }
+  }
+}

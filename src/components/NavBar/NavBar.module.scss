@@ -1,0 +1,66 @@
+.header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  
+  button {
+    span {
+      margin: 0;
+    }
+  }
+}
+.static {
+  background-color: transparent;
+  color: #fff;
+  span {
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+.favorites {
+  color: #000;
+  span {
+    color: #000;
+  }
+}
+.dynamic {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  span {
+    color: #fff;
+  }
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+
+  & > span {
+    margin: 0;
+  }
+  & > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 8px;
+  }
+  .logout {
+    & > svg {
+      width: 25px;
+      height: 25px;
+      margin-left: 16px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.favoritePage {
+  background: rgb(31, 31, 31);
+  min-height: 100vh;
+  height: fit-content;
+  .carListWrapper {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .preloader {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .list {
+      width: 100%;
+      padding: 100px 50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 17px;
+    }
+  }
+}
+.empty {
+  color: #fff;
+  font-size: 18px;
+}

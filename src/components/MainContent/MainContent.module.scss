@@ -1,0 +1,89 @@
+.container {
+  .carsBlock {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .imageWrapperLeft {
+      position: absolute;
+      bottom: 0;
+      left: -12%;
+      z-index: -1;
+
+      @media (min-width: 1625px) {
+        left: 0;
+      }
+      @media (max-width: 1290px) {
+        left: -20%;
+      }
+      @media (max-width: 1140px) {
+        left: -30%;
+      }
+      @media (max-width: 1140px) {
+        left: -30%;
+      }
+      @media (max-width: 1024px) {
+        left: -40%;
+      }
+      @media (max-width: 890px) {
+        left: -55%;
+      }
+    }
+    .imageWrapperRight {
+      position: absolute;
+      bottom: 0;
+      right: -12%;
+      z-index: -1;
+      @media (min-width: 1625px) {
+        right: 0;
+      }
+      @media (max-width: 1290px) {
+        right: -20%;
+      }
+      @media (max-width: 1140px) {
+        right: -30%;
+      }
+      @media (max-width: 1024px) {
+        right: -40%;
+      }
+      @media (max-width: 890px) {
+        right: -55%;
+      }
+    }
+  }
+
+  .carList {
+    background: url('../../images/bgRoad.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .carListWrapper {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .infoBlock {
+      max-width: 1820px;
+      border-radius: 8px;
+      background: #fff;
+      text-align: center;
+      padding: 0 20px;
+      width: 100%;
+      .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.preloader {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+.list {
+  width: 100%;
+  padding: 40px 0;
+  max-width: 1820px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+
+  @media (min-width: 1920px) {
+    gap: 24px;
+  }
+}
